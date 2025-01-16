@@ -1,0 +1,413 @@
+﻿@using System.Text.Json
+@model List<FurkiProject.Models.Player>
+@{
+    var jsonOptions = new JsonSerializerOptions
+    {
+        PropertyNamingPolicy = null,
+        WriteIndented = true,
+        PropertyNameCaseInsensitive = true
+    };
+}
+
+<div class="container">
+    <header>
+        <div class="timer-circle" aria-label="Countdown Timer">
+            <span id="timer">15</span>
+        </div>
+        <div class="player-info">
+            <h1 id="playerName">Başlangıç Oyuncusu</h1>
+            <div class="score-display">
+                <span>Skor: </span>
+                <span id="score">0</span>
+            </div>
+        </div>
+        <div class="header-right">
+            <button id="skipButton" aria-label="Skip to the next player">Skip</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="game-area">
+            <div class="card-grid" id="cardGrid">
+            </div>
+            <div class="player-count">
+                <p id="remaining-players">@Model.Count oyuncu kaldı</p>
+            </div>
+        </div>
+    </main>
+</div>
+
+@section Scripts {
+    <script>
+        const images = [
+            "Ajax.png", "Almanya.png", "Arsenal.png", "Atletico_Madrid.png", "Barcelona.png",
+            "Bayern_Munich.png", "Benfica.png", "Brezilya.png", "Champions_League.png",
+            "Chelsea.png", "Copa_America.png", "Borussia_Dortmund.png", "Euro.png", "Fenerbahce.png",
+            "Fransa.png", "Galatasaray.png", "İngiltere.png", "İnter.png", "İspanya.png",
+            "İtalya.png", "Juventus.png", "Liverpool.png", "Manchester_City.png", "Manchester_United.png",
+            "Milan.png", "Napoli.png", "Paris_Saint_Germain.png", "Portekiz.png", "Porto.png",
+            "Premier_League.png", "Real_Madrid.png", "Roma.png", "Serie_A.png", "Sevilla.png",
+            "Sporting_Lizbon.png", "Tottenham.png", "World_Cup.png"
+        ];
+
+        const players = @Html.Raw(JsonSerializer.Serialize(Model.Select(p => p.Futbolcu_Ismi), jsonOptions));
+        const dbPlayers = @Html.Raw(JsonSerializer.Serialize(Model, jsonOptions));
+
+        // Veritabanı verilerini detaylı kontrol et
+        console.log('Model verisi:', @Html.Raw(JsonSerializer.Serialize(Model, jsonOptions)));
+        console.log('İlk oyuncu detayı:', @Html.Raw(JsonSerializer.Serialize(Model.FirstOrDefault(), jsonOptions)));
+        console.log('Tüm oyuncular:', players);
+        console.log('Detaylı oyuncu bilgileri:', dbPlayers);
+
+        let currentPlayerIndex = 0;
+        let remainingPlayers = 30;
+        const initialTime = 15;
+        let timerInterval;
+        let score = 0;
+        
+        let clickedCards = 0;
+        const totalCards = 16; 
+        let isGameOver = false; 
+
+        function updateScore(points) {
+            score += points;
+            document.getElementById("score").textContent = score;
+        }
+
+        function getRandomImages(images, count) {
+            const shuffled = images.sort(() => 0.5 - Math.random());
+            return shuffled.slice(0, count);
+        }
+
+        function checkPlayerInDatabase(cardName) {
+            // Önce dbPlayers'ın ve currentPlayerIndex'in doğru olduğundan emin olalım
+            if (!dbPlayers || !dbPlayers.length || currentPlayerIndex >= dbPlayers.length) {
+                console.log('Oyuncu verisi bulunamadı!', { dbPlayers, currentPlayerIndex });
+                return false;
+            }
+
+            // Şu anki aktif oyuncuyu al
+            const currentPlayer = dbPlayers[currentPlayerIndex];
+            
+            // Debug için bilgileri yazdır
+            console.log('currentPlayerIndex:', currentPlayerIndex);
+            console.log('Toplam Oyuncu Sayısı:', dbPlayers.length);
+            console.log('Aktif Oyuncu:', currentPlayer.Futbolcu_Ismi);
+            console.log('Oyuncunun Futbolcu_Bilgileri:', currentPlayer.Futbolcu_Bilgileri);
+            console.log('Seçilen Kart:', cardName);
+
+            // Eğer oyuncunun bilgileri yoksa false döndür
+            if (!currentPlayer.Futbolcu_Bilgileri) {
+                console.log('Oyuncunun bilgileri boş!');
+                return false;
+            }
+
+            try {
+                // Köşeli parantezleri kaldır
+                const cleanList = currentPlayer.Futbolcu_Bilgileri
+                    .replace('[', '')
+                    .replace(']', '');
+                
+                // Virgülle ayırarak dizi haline getir
+                const bilgilerListesi = cleanList.split(',');
+                console.log('Bilgiler Listesi:', bilgilerListesi);
+
+                // Her bir bilgiyi kontrol et
+                for (let bilgi of bilgilerListesi) {
+                    const temizBilgi = bilgi.trim();
+                    console.log(`Karşılaştırılıyor: "${temizBilgi}" ile "${cardName}"`);
+                    if (temizBilgi === cardName) {
+                        console.log('Eşleşme bulundu!');
+                        return true;
+                    }
+                }
+            } catch (error) {
+                console.error('Bilgileri işlerken hata:', error);
+                return false;
+            }
+
+            console.log('Eşleşme bulunamadı');
+            return false;
+        }
+
+        function displayRandomCards() {
+            const cardGrid = document.getElementById("cardGrid");
+            const selectedImages = getRandomImages(images, totalCards);
+
+            cardGrid.innerHTML = '';
+            clickedCards = 0; 
+
+            selectedImages.forEach(image => {
+                const card = document.createElement("div");
+                card.className = "card";
+                const cardName = image.replace('.png', '');
+                card.innerHTML = `
+                    <div class="card-inner">
+                        <img src="/images/${image}" alt="${cardName} Logo">
+                        <p>${cardName.replace(/_/g, ' ')}</p>
+                    </div>
+                `;
+                card.addEventListener("click", () => {
+                    if (!card.classList.contains("disabled") && !isGameOver) {
+                        console.log('Kart tıklandı:', cardName);
+                        const isCorrect = checkPlayerInDatabase(cardName);
+                        console.log('Sonuç:', isCorrect);
+                        
+                        if (isCorrect) {
+                            card.style.backgroundColor = '#4CAF50'; // Yeşil
+                            updateScore(1);
+                        } else {
+                            card.style.backgroundColor = '#FF5252'; // Kırmızı
+                            updateScore(-1);
+                        }
+                        
+                        card.classList.add("disabled"); 
+                        clickedCards++; 
+
+                        if (clickedCards === totalCards) {
+                            endGame(); 
+                        } else {
+                            changePlayer(); 
+                            resetTimer(); 
+                        }
+                    }
+                });
+                cardGrid.appendChild(card);
+            });
+        }
+
+        function changePlayer() {
+            if (isGameOver) return;
+
+            const playerNameElement = document.getElementById("playerName");
+            const remainingPlayersElement = document.getElementById("remaining-players");
+
+            console.log('Oyuncu değiştiriliyor. Şu anki index:', currentPlayerIndex);
+            console.log('Toplam oyuncu:', dbPlayers.length);
+
+            if (currentPlayerIndex < dbPlayers.length - 1) {
+                currentPlayerIndex++;
+                const nextPlayer = dbPlayers[currentPlayerIndex];
+                console.log('Sonraki oyuncu:', nextPlayer);
+                playerNameElement.textContent = nextPlayer.Futbolcu_Ismi;
+            } else {
+                console.log('Son oyuncuya gelindi');
+                playerNameElement.textContent = "Oyun bitti!";
+            }
+
+            if (remainingPlayers > 0) {
+                remainingPlayers--;
+                remainingPlayersElement.textContent = `${remainingPlayers} oyuncu kaldı`;
+            }
+        }
+
+        function startTimer() {
+            const timerElement = document.getElementById("timer");
+            let timeLeft = initialTime;
+
+            timerElement.textContent = timeLeft;
+
+            timerInterval = setInterval(() => {
+                if (isGameOver) {
+                    clearInterval(timerInterval);
+                    return;
+                }
+
+                timeLeft--;
+                timerElement.textContent = timeLeft;
+
+                if (timeLeft <= 0) {
+                    clearInterval(timerInterval);
+                    changePlayer();
+                    resetTimer();
+                }
+            }, 1000);
+        }
+
+        function resetTimer() {
+            clearInterval(timerInterval);
+            timerInterval = null;
+            startTimer();
+        }
+        
+        function endGame() {
+            clearInterval(timerInterval);
+            isGameOver = true; 
+            alert(`Oyun bitti! Final skorunuz: ${score}`);
+            const skipButton = document.getElementById("skipButton");
+            skipButton.disabled = true;
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const playerNameElement = document.getElementById("playerName");
+            const remainingPlayersElement = document.getElementById("remaining-players");
+
+            // dbPlayers kontrolü
+            console.log('Başlangıçta tüm veriler:', {
+                dbPlayers,
+                players,
+                currentPlayerIndex,
+                remainingPlayers
+            });
+
+            if (dbPlayers && dbPlayers.length > 0) {
+                const firstPlayer = dbPlayers[0];
+                console.log('İlk oyuncu detayları:', {
+                    isim: firstPlayer.Futbolcu_Ismi,
+                    bilgiler: firstPlayer.Futbolcu_Bilgileri
+                });
+                playerNameElement.textContent = firstPlayer.Futbolcu_Ismi || "İsimsiz Oyuncu";
+                remainingPlayersElement.textContent = `${remainingPlayers} oyuncu kaldı`;
+            } else {
+                console.log('Oyuncu verisi bulunamadı');
+                playerNameElement.textContent = "Oyuncu bulunamadı";
+                remainingPlayersElement.textContent = "0 oyuncu kaldı";
+            }
+
+            displayRandomCards();
+            startTimer();
+
+            document.getElementById("skipButton").addEventListener("click", () => {
+                if (!isGameOver) { 
+                    changePlayer();
+                    resetTimer();
+                }
+            });
+        });
+    </script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2c003e;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            width: 70%;
+            max-width: 600px;
+        }
+
+        header {
+            background-color: #5765B2;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .timer-circle {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #007bff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .player-info h1 {
+            font-size: 18px;
+            margin: 0;
+            color: #ffffff;
+        }
+
+        #skipButton {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .game-area {
+            background-color: #370049;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0;
+        }
+
+        .card {
+            background-color: #4a005f;
+            color: white;
+            padding: 20px;
+            font-size: 12px;
+            text-align: center;
+            height: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card-inner {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card img {
+            max-width: 60%;
+            max-height: 60%;
+            margin-bottom: 5px;
+            object-fit: contain;
+            width: auto;
+            height: auto;
+        }
+
+        .card:nth-child(odd) {
+            background-color: #5e0a73;
+        }
+
+        .card:nth-child(even) {
+            background-color: #4a005f;
+        }
+
+        .player-count {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #ffffff;
+        }
+
+        .card.disabled {
+            background-color: #a3a3a3;
+            color: #666;
+            pointer-events: none;
+            opacity: 0.7;
+        }
+
+        .score-display {
+            font-size: 16px;
+            margin-top: 5px;
+            color: #ffffff;
+        }
+    </style>
+}

@@ -1,0 +1,234 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|c:\\users\\\u0130brahim uzunmehmeto\u011F\\desktop\\furkiproject\\furkiproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|solutionrelative:furkiproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|c:\\users\\\u0130brahim uzunmehmeto\u011F\\desktop\\furkiproject\\furkiproject\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|solutionrelative:furkiproject\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|c:\\users\\\u0130brahim uzunmehmeto\u011F\\desktop\\furkiproject\\furkiproject\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|solutionrelative:furkiproject\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|c:\\users\\\u0130brahim uzunmehmeto\u011F\\desktop\\furkiproject\\furkiproject\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|solutionrelative:furkiproject\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|c:\\users\\\u0130brahim uzunmehmeto\u011F\\desktop\\furkiproject\\furkiproject\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|solutionrelative:furkiproject\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|c:\\users\\\u0130brahim uzunmehmeto\u011F\\desktop\\furkiproject\\furkiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|solutionrelative:furkiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|c:\\users\\\u0130brahim uzunmehmeto\u011F\\desktop\\furkiproject\\furkiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|solutionrelative:furkiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|c:\\users\\\u0130brahim uzunmehmeto\u011F\\desktop\\furkiproject\\furkiproject\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|solutionrelative:furkiproject\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|c:\\users\\\u0130brahim uzunmehmeto\u011F\\desktop\\furkiproject\\furkiproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|solutionrelative:furkiproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|c:\\users\\\u0130brahim uzunmehmeto\u011F\\desktop\\furkiproject\\furkiproject\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|solutionrelative:furkiproject\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|c:\\users\\\u0130brahim uzunmehmeto\u011F\\desktop\\furkiproject\\furkiproject\\furkiproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|solutionrelative:furkiproject\\furkiproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|c:\\users\\\u0130brahim uzunmehmeto\u011F\\desktop\\furkiproject\\furkiproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|solutionrelative:furkiproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|c:\\users\\\u0130brahim uzunmehmeto\u011F\\desktop\\furkiproject\\furkiproject\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F1ADAAF8-91FB-473A-B18D-E8050D2B16D0}|FurkiProject\\FurkiProject.csproj|solutionrelative:furkiproject\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FurkiProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FurkiProject\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-29T16:48:38.594Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "player.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\Models\\player.cs",
+              "RelativeDocumentMoniker": "FurkiProject\\Models\\player.cs",
+              "ToolTip": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\Models\\player.cs",
+              "RelativeToolTip": "FurkiProject\\Models\\player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T16:48:38.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "FurkiProject\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "FurkiProject\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-29T16:48:38.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\Program.cs",
+              "RelativeDocumentMoniker": "FurkiProject\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\Program.cs",
+              "RelativeToolTip": "FurkiProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T16:48:38.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\appsettings.json",
+              "RelativeDocumentMoniker": "FurkiProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\appsettings.json",
+              "RelativeToolTip": "FurkiProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-29T16:48:38.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FurkiProject\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FurkiProject\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-29T22:01:29.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "FurkiProject\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "FurkiProject\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-29T22:01:28.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "FurkiProject\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "FurkiProject\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-29T16:48:38.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "FurkiProject\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "FurkiProject\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T16:48:38.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FurkiProject\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FurkiProject\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T16:48:38.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FurkiProject.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\FurkiProject.csproj",
+              "RelativeDocumentMoniker": "FurkiProject\\FurkiProject.csproj",
+              "ToolTip": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\FurkiProject.csproj",
+              "RelativeToolTip": "FurkiProject\\FurkiProject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-29T16:48:38.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FurkiProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FurkiProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-29T16:48:38.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "FurkiProject\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\\u0130brahim UZUNMEHMETO\u011E\\Desktop\\FurkiProject\\FurkiProject\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "FurkiProject\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-29T16:48:38.49Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

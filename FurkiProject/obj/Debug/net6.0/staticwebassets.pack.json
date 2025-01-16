@@ -1,0 +1,413 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FurkiProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FurkiProject.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Ajax.png",
+      "PackagePath": "staticwebassets\\images\\Ajax.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Almanya.png",
+      "PackagePath": "staticwebassets\\images\\Almanya.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Arsenal.png",
+      "PackagePath": "staticwebassets\\images\\Arsenal.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Atletico_Madrid.png",
+      "PackagePath": "staticwebassets\\images\\Atletico_Madrid.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Barcelona.png",
+      "PackagePath": "staticwebassets\\images\\Barcelona.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Bayern_Munich.png",
+      "PackagePath": "staticwebassets\\images\\Bayern_Munich.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Benfica.png",
+      "PackagePath": "staticwebassets\\images\\Benfica.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Borussia_Dortmund.png",
+      "PackagePath": "staticwebassets\\images\\Borussia_Dortmund.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Brezilya.png",
+      "PackagePath": "staticwebassets\\images\\Brezilya.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Champions_League.png",
+      "PackagePath": "staticwebassets\\images\\Champions_League.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Chelsea.png",
+      "PackagePath": "staticwebassets\\images\\Chelsea.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Copa_America.png",
+      "PackagePath": "staticwebassets\\images\\Copa_America.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Euro.png",
+      "PackagePath": "staticwebassets\\images\\Euro.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Fenerbahce.png",
+      "PackagePath": "staticwebassets\\images\\Fenerbahce.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Fransa.png",
+      "PackagePath": "staticwebassets\\images\\Fransa.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Galatasaray.png",
+      "PackagePath": "staticwebassets\\images\\Galatasaray.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Juventus.png",
+      "PackagePath": "staticwebassets\\images\\Juventus.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Liverpool.png",
+      "PackagePath": "staticwebassets\\images\\Liverpool.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Manchester_City.png",
+      "PackagePath": "staticwebassets\\images\\Manchester_City.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Manchester_United.png",
+      "PackagePath": "staticwebassets\\images\\Manchester_United.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Milan.png",
+      "PackagePath": "staticwebassets\\images\\Milan.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Napoli.png",
+      "PackagePath": "staticwebassets\\images\\Napoli.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Paris_Saint_Germain.png",
+      "PackagePath": "staticwebassets\\images\\Paris_Saint_Germain.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Portekiz.png",
+      "PackagePath": "staticwebassets\\images\\Portekiz.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Porto.png",
+      "PackagePath": "staticwebassets\\images\\Porto.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Premier_League.png",
+      "PackagePath": "staticwebassets\\images\\Premier_League.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Real_Madrid.png",
+      "PackagePath": "staticwebassets\\images\\Real_Madrid.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Roma.png",
+      "PackagePath": "staticwebassets\\images\\Roma.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Serie_A.png",
+      "PackagePath": "staticwebassets\\images\\Serie_A.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Sevilla.png",
+      "PackagePath": "staticwebassets\\images\\Sevilla.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Sporting_Lizbon.png",
+      "PackagePath": "staticwebassets\\images\\Sporting_Lizbon.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\Tottenham.png",
+      "PackagePath": "staticwebassets\\images\\Tottenham.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\World_Cup.png",
+      "PackagePath": "staticwebassets\\images\\World_Cup.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\İngiltere.png",
+      "PackagePath": "staticwebassets\\images\\İngiltere.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\İnter.png",
+      "PackagePath": "staticwebassets\\images\\İnter.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\İspanya.png",
+      "PackagePath": "staticwebassets\\images\\İspanya.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\images\\İtalya.png",
+      "PackagePath": "staticwebassets\\images\\İtalya.png"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\İbrahim UZUNMEHMETOĞ\\Desktop\\FurkiProject\\FurkiProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FurkiProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.FurkiProject.props",
+      "PackagePath": "build\\FurkiProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.FurkiProject.props",
+      "PackagePath": "buildMultiTargeting\\FurkiProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.FurkiProject.props",
+      "PackagePath": "buildTransitive\\FurkiProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
